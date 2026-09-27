@@ -24285,7 +24285,7 @@ if enabled then
     end)
     task.wait(1.5)
     local ok, source = pcall(function()
-        return game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua")
+        return game:HttpGet("https://raw.githubusercontent.com/Scripter681/Aetherhub/refs/heads/main/UhcMGa.txt")
     end)
     if ok and type(source) == "string" then
         local chunk = loadstring(source)
